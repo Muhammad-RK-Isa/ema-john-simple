@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faShoppingCart, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { removeFromDb } from '../../utilities/fakedb';
 
 const ProductDetails = (props) => {
